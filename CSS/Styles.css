@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-flow: column;
+}
+
+header{
+    border: 1px solid red;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    flex-basis: 100%;
+    box-shadow: 0px 4px 4px 0px #010C80;
+}
+
+nav{
+    align-self: center;
+}
+
+img{
+    border: 1px solid red;
+    
+}
