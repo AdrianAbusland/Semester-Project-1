@@ -5,24 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Museum</title>
     <link rel="stylesheet" href="./CSS/Styles.css">
+    <script src="https://kit.fontawesome.com/afa145a3ff.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <Header>
         <div class="header-logo">
             <a href="./"><img src="./Assets/Images/tech-museum-high-resolution-logo-transparent 225x63.png" alt="Tech museum logo"></a>
         </div>
-        <nav>
+        <nav class="h-nav">
             <a class="highlight" href="./">Home</a>
             <a href="./Exhibitions/">Exhibitions</a>
-            <a href="./Document/About.html">About</a>
+            <a href="./Contact/">Contact</a>
+        </nav>
+        <div class="contribution-container">
+            <a class="contribution-button" href="./Contribution/"><i class="fa-solid fa-hand-holding-dollar fa-2x"></i></a>
+        </div>
+        <label class="hamburger-menu">
+            <input type="checkbox">
+        </label>
+        <nav class="h-nav-sidebar">
+            <a class="highlight" href="./">Home</a>
+            <a href="./Exhibitions/">Exhibitions</a>
             <a href="./Contact/">Contact</a>
         </nav>
     </Header>
     <main>
-
+        <Section class="colomn-1">
+            <img src="./Assets/Images/pexels-marcio-skull-5479116.jpg" alt="image of dinosaur scull">
+            <div>
+                <h1>Night in the Museum</h1>
+                <p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.</p>
+            </div>
+        </Section>
+        <Section class="colomn-2">
+            <h2 class="colomn-2-h2">Plan your visit</h2>
+            <div class="cards hours">
+                <i class="fa-regular fa-clock fa-3x" style="color: #010c80;"></i>
+                <h2>Hours</h2>
+                <ul class="hours-ul">
+                    <li>Monday: Closed</li>
+                    <li>Tuesday: 10:00 – 16:00</li>
+                    <li>Wednesday: 10:00 – 16:00</li>
+                </ul>
+            </div>
+            <div class="cards directions">
+                <i class="fa-regular fa-map fa-3x" style="color: #010c80;"></i>
+                <h2>Directions</h2>
+            </div>
+            <div class="cards f&d">
+                <i class="fa-regular fa-clock fa-3x" style="color: #010c80;"></i>
+                <h2>Food and drinks</h2>
+                <p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
+                <h2>Shop</h2>
+                <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>
+            </div>
+            <div class="cards get-involved">
+                <i class="fa-regular fa-clock fa-3x" style="color: #010c80;"></i>
+                <h2>Get Involved</h2>
+                <h3>Support</h3>
+                <p>There are various ways you can support the museum. Donations are very welcome and are an important way we keep this museum open and accessible to the whole community.</p>
+                <h3>Volunteer</h3>
+                <p>You can help volunteer in a number of different spheres. Please contact us if you’d like to find out more about how you can get involved.</p>
+                <h3>Internships</h3>
+                <p>You’ll be learning from a number of different academics and people who are passionate about science and sharing it with the wider community.</p>
+                <a href="./Contact/">Contact</a>
+            </div>
+        </Section>
     </main>
     <footer>
-        <a href="./"><img src="./Assets/Images/tech-museum-high-resolution-logo-transparent 225x63.png" alt="Tech museum logo"></a>
+        <h3>Tech museum 2023 ©</h3>
+        <nav>
+            <a href="./Document/privacy-policy.html">Privacy Policy</a>
+            <a href="./Document/terms-and-conditions.html">Terms and conditions</a>
+        </nav>
     </footer>
 </body>
 </html>
