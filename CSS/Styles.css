@@ -134,10 +134,10 @@ main{
     flex-flow: column;
     align-items: center;
     border: 2px solid var(--background-purple);
-    box-shadow: 0px 4px 4px 0px var(--box-shadow);
+    box-shadow: 4px 4px 4px 0px var(--box-shadow);
     border-radius: 45px;
     min-height: 50vh;
-    width: 250px;
+    width: 300px;
     padding: 15px;
     margin: 15px;
 }
@@ -149,7 +149,6 @@ main{
 .cards h2{
     color: var(--background-purple);
     font-size: 25px;
-
 }
 
 .cards h3{
@@ -160,6 +159,7 @@ main{
     color: var(--background-blue);
     font-size: 19px;
     text-align: center;
+    padding: 5px 0px;
 }
 
 .directions p{
@@ -181,7 +181,6 @@ main{
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    
 }
 
 .hours-ul{
@@ -189,7 +188,6 @@ main{
     flex-flow: column;
     align-items: start;
     padding: 0;
-    
 }
 
 .hours-ul li{
