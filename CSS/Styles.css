@@ -119,7 +119,6 @@ main{
     flex-flow: row wrap;
     justify-content: space-evenly;
     padding: 10px;
-
 }
 
 .colomn-2-h2{
@@ -196,17 +195,6 @@ main{
     color: var(--background-blue);
     font-size: 20px;
     padding: 6px 0px;
-}
-
-footer{
-    background-color: var(--background-lightblue);
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    min-height: 10vh;
-    color: var(--background-blue);
-    padding: 60px 0px;
-    box-shadow: 0px 4px 4px 0px var(--box-shadow) inset;
 }
 
 .colomn-e{
@@ -374,6 +362,81 @@ footer{
 .e-5-div p{
     font-size: 18px;
     color: var(--background-dark-blue);
+}
+
+.colomn-c{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.colomn-c-h2{
+    font-size: 35px;
+    flex-basis: 100%;
+    text-align: center;
+    color: var(--background-blue);
+}
+
+.colomn-c div{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: 2px solid var(--background-purple);
+    box-shadow: 4px 4px 4px 0px var(--box-shadow);
+    border-radius: 45px;
+    min-height: 50vh;
+    width: 500px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.cards-c{
+    background-color: var(--background-sharp-white);
+}
+
+.cards-c h2{
+    color: var(--background-purple);
+    font-size: 25px;
+}
+
+.cards-c h3{
+    margin: 0;
+}
+
+.cards-c p{
+    color: var(--background-blue);
+    font-size: 19px;
+    text-align: center;
+    padding: 5px 0px;
+    margin: 0;
+}
+
+.hours-c-ul{
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    padding: 0;
+}
+
+.hours-c-ul li{
+    text-decoration: none;
+    list-style: none;
+    color: var(--background-blue);
+    font-size: 20px;
+    padding: 6px 0px;
+}
+
+footer{
+    background-color: var(--background-lightblue);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    min-height: 10vh;
+    color: var(--background-blue);
+    padding: 60px 0px;
+    box-shadow: 0px 4px 4px 0px var(--box-shadow) inset;
 }
 
 footer nav{
