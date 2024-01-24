@@ -57,11 +57,17 @@
         <section class="colomn-c">
             <h2 class="colomn-c-h2">Contact form</h2>
             <div class="cards-c form-c">
-                <form>
+                <form class="contform" method="post">
                     <label for="name">Name</label>
                     <input type="text" id="name">
                     <label for="email">Email</label>
-                    <input type="text" id="email">
+                    <input type="email" id="email">
+                    <label for="tlf">Phone</label>
+                    <input type="tel" id="tlf">
+                    <label for="message">Your Message</label>
+                    <textarea name="message" id="message"></textarea>
+                    <input type="submit" id="submit" value="Submit">
+                    
                 </form>
             </div>
         </section>

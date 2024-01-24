@@ -1,0 +1,99 @@
+.colomn-c{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.colomn-c-h2{
+    font-size: 35px;
+    flex-basis: 100%;
+    text-align: center;
+    color: var(--background-blue);
+}
+
+.cards-c{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: 2px solid var(--background-purple);
+    box-shadow: 4px 4px 4px 0px var(--box-shadow);
+    border-radius: 45px;
+    min-height: 50vh;
+    width: 500px;
+    padding: 15px;
+    margin: 15px;
+    background-color: var(--background-sharp-white);
+}
+
+.cards-c h2{
+    color: var(--background-purple);
+    font-size: 25px;
+}
+
+.cards-c h3{
+    margin: 0;
+}
+
+.cards-c p{
+    color: var(--background-blue);
+    font-size: 19px;
+    text-align: center;
+    padding: 5px 0px;
+    margin: 0;
+}
+
+.hours-c-ul{
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    padding: 0;
+}
+
+.hours-c-ul li{
+    text-decoration: none;
+    list-style: none;
+    color: var(--background-blue);
+    font-size: 20px;
+    padding: 6px 0px;
+}
+
+.form-c{
+    display: flex;
+    flex-flow: column;
+    width: 1000px;
+}
+
+.contform{
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    width: 66%;
+}
+
+.contform label{
+    text-align: center;
+    font-size: 25px;
+    color: var(--background-purple);
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.contform input{
+    border: 1.5px solid var(--background-purple);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.contform textarea{
+    min-height: 80px;
+    border-radius: 6px;
+    border: 1.5px solid var(--background-purple);
+}
+
+#submit{
+    background-color: var(--background-purple);
+    color: var(--background-sharp-white);
+    font-size: 20px;
+}

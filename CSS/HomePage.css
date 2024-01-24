@@ -1,0 +1,118 @@
+.colomn-1{
+    background-color: var(--background-purple);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 25px;
+    flex-basis: 100%;
+    padding: 25px 5px;
+    box-shadow: 0px 4px 4px 0px var(--box-shadow) inset, 0px 4px 4px 0px var(--box-shadow);
+}
+
+.colomn-1 img{
+    border-radius: 9999px;
+    width: 100%;
+    max-width: 640px;
+}
+
+.colomn-1 div{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.colomn-1 h1{
+    color: var(--background-blue);
+    font-size: 40px;
+    margin: 0;
+}
+
+.colomn-1 p{
+    color: var(--background-white);
+    font-size: 20px;
+    max-width: 500px;
+}
+
+.colomn-2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.colomn-2-h2{
+    font-size: 35px;
+    flex-basis: 100%;
+    text-align: center;
+    color: var(--background-blue);
+}
+
+.colomn-2 div{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: 2px solid var(--background-purple);
+    box-shadow: 4px 4px 4px 0px var(--box-shadow);
+    border-radius: 45px;
+    min-height: 50vh;
+    width: 300px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.cards{
+    background-color: var(--background-sharp-white);
+}
+
+.cards h2{
+    color: var(--background-purple);
+    font-size: 25px;
+}
+
+.cards h3{
+    margin: 0;
+}
+
+.cards p{
+    color: var(--background-blue);
+    font-size: 19px;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.directions p{
+    margin: 2.5px;
+    font-size: 20px;
+}
+
+.get-involved p{
+    font-size: 15px;
+}
+
+.get-involved a{
+    background-color: var(--background-purple);
+    color: var(--background-white);
+    display: flex;
+    font-size: 25px;
+    width: 120px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.hours-ul{
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    padding: 0;
+}
+
+.hours-ul li{
+    text-decoration: none;
+    list-style: none;
+    color: var(--background-blue);
+    font-size: 20px;
+    padding: 6px 0px;
+}
