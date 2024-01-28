@@ -19,6 +19,12 @@
 .donate{
     display: flex;
     flex-flow: column;
+    align-items: center;
+}
+
+.donate form{
+    display: flex;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
 }
