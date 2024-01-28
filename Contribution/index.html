@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Museum | Donate</title>
+    <link rel="stylesheet" href="../CSS/Styles.css">
+    <script src="https://kit.fontawesome.com/afa145a3ff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <Header>
+        <div class="header-logo">
+            <a href="../"><img src="../Assets/Images/tech-museum-high-resolution-logo-transparent 225x63.png" alt="Tech museum logo"></a>
+        </div>
+        <nav class="h-nav">
+            <a href="../">Home</a>
+            <a href="../Exhibitions/">Explore</a>
+            <a href="../Contact/">Contact</a>
+        </nav>
+        <div class="contribution-container">
+            <a class="contribution-button" href="../Contribution/"><i class="fa-solid fa-hand-holding-dollar fa-2x"></i></a>
+        </div>
+        <label class="hamburger-menu">
+            <input type="checkbox">
+        </label>
+        <nav class="h-nav-sidebar">
+            <a href="../">Home</a>
+            <a href="../Exhibitions/">Explore</a>
+            <a class="highlight" href="../Contact/">Contact</a>
+        </nav>
+    </Header>
+    <main>
+        <section class="donate">
+            <h1>Donate to the museum</h1>
+            <p>Donations to the museum goes to funding our team of researchers and engineers</p>
+            <div class="donate-card-container">
+                <div>
+                    <h2>Card information</h2>
+                    <div class="icon-container">
+                        <i class="fa fa-cc-visa fa-2x" style="color:navy;"></i>
+                        <i class="fa fa-cc-amex fa-2x" style="color:blue;"></i>
+                        <i class="fa fa-cc-mastercard fa-2x" style="color:red;"></i>
+                        <i class="fa fa-cc-discover fa-2x" style="color:orange;"></i>
+                    </div>
+                </div>
+                <label for="cname">Name on Card</label>
+                <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                <label for="ccnum">Credit card number</label>
+                <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                <div class="row">
+                    <div class="col-50">
+                      <label for="expyear">Exp Date</label>
+                      <input type="text" id="expyear" name="expyear" placeholder="05/26">
+                    </div>
+                    <div class="col-50">
+                      <label for="cvv">CVV</label>
+                      <input type="text" id="cvv" name="cvv" placeholder="352">
+                    </div>
+                </div>
+                <input id="submitbutton" type="submit" value="Donate">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3>Tech museum 2023 ©</h3>
+        <nav>
+            <a href="../Document/privacy-policy.html">Privacy Policy</a>
+            <a href="../Document/terms-and-conditions.html">Terms and conditions</a>
+        </nav>
+    </footer>
+</body>
+</html>
