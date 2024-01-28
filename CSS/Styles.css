@@ -86,6 +86,10 @@ main{
     align-items: stretch;
 }
 
+.document{
+    margin: 25px;
+}
+
 footer{
     background-color: var(--background-lightblue);
     display: flex;
